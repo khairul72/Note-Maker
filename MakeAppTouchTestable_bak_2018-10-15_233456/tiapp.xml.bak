@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.appcelerator.noteMaker</id>
+  <name>Note Maker</name>
+  <version>1.0</version>
+  <publisher>not specified</publisher>
+  <url>unspecified</url>
+  <description/>
+  <copyright>not specified</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>true</analytics>
+  <guid>c6cb6fcb-c3b8-4fcd-9ddd-4d9d63437de2</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <property name="run-on-main-thread" type="bool">true</property>
+  <ios>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <use-app-thinning>true</use-app-thinning>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+      </dict>
+    </plist>
+  </ios>
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  </android>
+  <modules></modules>
+  <deployment-targets>
+    <target device="android">true</target>
+    <target device="windows">false</target>
+  </deployment-targets>
+  <sdk-version>7.4.0.GA</sdk-version>
+  <property name="appc-app-id" type="string">5bc4cf4f20a92b37be2ef8f0</property>
+</ti:app>
